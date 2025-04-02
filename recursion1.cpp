@@ -38,19 +38,42 @@ using namespace std;
 
 //there may be a single or multiple base conditions 
 
-int cont = 0;
+// int cont = 0;
 
-void adarsh(){
-    if (cont == 4){
-        return;
-        cout << cont << endl;
-        cont ++ ;
-        adarsh();
-    }
+// void adarsh(){
+//     if (cont == 4){
+//         return;
+//         cout << cont << endl;
+//         cont ++ ;
+//         adarsh();
+//     }
+// }
+// int main(){
+//     adarsh();
+// }
+
+
+//recursion by love babbar :---
+
+
+// big complex problem ka solution depend krta hai same type  ki chhoti problem par to recursion use hota hai
+
+
+int factorial(int n){
+    if (n==0)
+         return 1;
+
+         int chhoti = factorial(n-1);
+         int badi = n * chhoti;
+         return badi;
+
 }
+
 int main(){
-    adarsh();
+   int n;
+   int ans = factorial(n);
+   cout << ans << endl;
+   return 0;
+
 }
 
-
-//recursion tree :--
