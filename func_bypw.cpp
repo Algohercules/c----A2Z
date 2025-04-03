@@ -67,9 +67,21 @@ scope resolution operator:---
 formal and actual parameters:---
       wo parameters jinhe hum function call ke time pe pass krte haun are called as actual parameters  
       wo parameters jo function declaration ke time pe define hote hain are known as formal parameters
-
-
-
-pass      
-
+     
 */
+
+
+
+//pass by value:---
+//copy is created
+
+void change_value(int z){
+    z = 100;
+}
+ 
+
+int main(){
+    int a = 5;
+    change_value(a);
+    cout << a ;
+}
