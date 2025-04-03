@@ -47,3 +47,14 @@ using namespace std;
 //scope :--
 // part of program from where variable is accessible
 
+/*
+local variables:---
+the variables that are declared inside the function or block
+
+
+global variables:---
+variables that exist throughout the whole program
+
+what if there exists a local as well as global variable with the same name
+local >> global  (precedence)
+*/
