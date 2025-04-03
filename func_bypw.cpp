@@ -86,6 +86,9 @@ formal and actual parameters:---
 //     cout << a ;
 // }
 
+
+// pass by reference :---
+
 int main(){
     int p = 5;
     int &q = p;
