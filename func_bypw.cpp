@@ -75,13 +75,23 @@ formal and actual parameters:---
 //pass by value:---
 //copy is created
 
-void change_value(int z){
-    z = 100;
-}
+// void change_value(int z){
+//     z = 100;
+// }
  
 
+// int main(){
+//     int a = 5;
+//     change_value(a);
+//     cout << a ;
+// }
+
 int main(){
-    int a = 5;
-    change_value(a);
-    cout << a ;
+    int p = 5;
+    int &q = p;
+
+    q++;
+    cout << p << endl;
+    return 0;
 }
+
