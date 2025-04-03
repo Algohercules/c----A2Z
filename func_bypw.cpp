@@ -63,4 +63,13 @@ local >> global  (precedence)
 scope resolution operator:---
 (::) it is used to access the global variable instead of local from a bloclk of code
 
+
+formal and actual parameters:---
+      wo parameters jinhe hum function call ke time pe pass krte haun are called as actual parameters  
+      wo parameters jo function declaration ke time pe define hote hain are known as formal parameters
+
+
+
+pass      
+
 */
