@@ -6,13 +6,12 @@ using namespace std;
 
 int main(){
     int n;
-    cin >> n;
     int i = 1;
+    cin >> n ;
     while(i <= n){
           cout << i;
-          i = i + 1;
-    }
-
+          i++;
+    }    
 }
 
 //sum of no.s from 1 to n:---
