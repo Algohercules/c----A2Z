@@ -89,12 +89,40 @@ formal and actual parameters:---
 
 // pass by reference :---
 
-int main(){
-    int p = 5;
-    int &q = p;
+// int main(){
+//     int p = 5;
+//     int &q = p;
 
-    q++;
-    cout << p << endl;
-    return 0;
-}
+//     q++;
+//     cout << p << endl;
+//     return 0;
+// }
+
+
+
+// power :---
+
+// int power(int a , int b){
+     
+//       int ans = 1;
+//       for(int i = 1; i<=b; i++){
+//             ans = ans * a;
+//       }
+
+//       return ans;
+// }
+
+
+// int main(){
+
+//       int a , b;
+//       cin >> a >> b;
+
+//       int answer = power(a,b);
+//       cout << answer << endl;
+
+// }
+
+
+// even odd program :---
 
