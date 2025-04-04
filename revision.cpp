@@ -16,15 +16,33 @@ using namespace std;
 
 //sum of no.s from 1 to n:---
 
+// int main(){
+//     int i = 1;
+//     int n;
+//     int sum = 0;
+    
+//     cin >> n;
+
+//     while( i<= n){
+//          sum = sum + i;
+//           i++ ;
+//     }  
+// 
+//     cout << sum;
+//   }
+// checking prime no.s :---
+
 int main(){
-    int i = 1;
+
     int n;
-    int sum = 0;
-    
     cin >> n;
-    
-    while( i<= n){
-         sum = sum + i;
-          i++ ;
-    }  
+     
+    int i = 2;
+    while( i <= n){
+         if(n % i == 0){
+              cout << "not prime" <<endl;
+         }
+         i = i + 1;
+    }
+
 }
