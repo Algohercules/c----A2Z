@@ -185,19 +185,50 @@ formal and actual parameters:---
 // }
 
 
+
+
 //print counting
 
-void printCounting(int n){
+// void printCounting(int n){
     
-      for(int i =1; i<=n; i++){
-            cout << i <<endl;
-      }
+//       for(int i =1; i<=n; i++){
+//             cout << i <<endl;
+//       }
+// }
+
+// int main(){
+//        int n;
+//        cin >> n;
+
+//        printCounting(n);
+//        return 0;
+// }
+
+
+
+
+//checking prime number
+
+bool isPrime(int n){
+
+
+       //divide ho gya hai, not a prime no.
+       for(int i=2; i<=n; i++){
+            if(n%i == 0){
+                  return 0;
+            }
+       }
+       return 1;
 }
 
 int main(){
-       int n;
-       cin >> n;
-
-       printCounting(n);
-       return 0;
+      
+      int n;
+      cin >> n;
+      if(isPrime(n)){
+            cout << " is a prime number" <<endl;
+      }
+      else {
+            cout << "is not a prime no." <<endl;
+      }
 }
