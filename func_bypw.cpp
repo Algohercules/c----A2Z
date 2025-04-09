@@ -232,3 +232,5 @@ int main(){
             cout << "is not a prime no." <<endl;
       }
 }
+
+//ab nahio karunga
